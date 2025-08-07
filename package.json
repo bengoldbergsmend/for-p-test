@@ -1,0 +1,28 @@
+{
+  "name": "security-test-project",
+  "version": "1.0.0",
+  "description": "A basic npm project using winston-to-newrelic-logs, form-data, and snowflake-sdk for security testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "testing",
+    "winston",
+    "newrelic",
+    "form-data",
+    "snowflake"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.11.0",
+    "winston-to-newrelic-logs": "^1.0.11",
+    "form-data": "^4.0.0",
+    "snowflake-sdk": "^1.9.3",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
